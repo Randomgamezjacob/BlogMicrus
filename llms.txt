@@ -1,0 +1,11 @@
+# BlogMicrus
+
+> BlogMicrus is a microblogging platform where users can create their own posts, build their own blog using those posts, see posts by other users, and visit other users' blogs.
+
+## Links
+
+- [Main page](index.html): Landing page / main hub
+- [Create Post Page](createpost.html): Page for creating posts
+- [Newest Posts](newestposts.html): Newest posts, page is controlled by JavaScript
+- [User Blogs](userblog.html): Type in a display name and it shows their blog
+- [Most Liked Posts](mostliked.html): Most liked posts, the page is also controlled by JavaScript

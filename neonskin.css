@@ -1,0 +1,16 @@
+body {
+  background-color: white;
+  color: pink;
+  font-family: Arial;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+button{
+  font-size: 48px;
+  color: lavender;
+  background-color: lightblue;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: skyblue;
+}

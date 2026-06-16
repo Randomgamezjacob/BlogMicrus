@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+  color: green;
+  font-family: 'Courier New', Courier, monospace;
+}
+button{
+  font-size: 48px;
+  background-color: black;
+  color: green;
+  transition: 0.3s;
+}
+
+button:hover {
+  color: black;
+  background-color: green;
+}
