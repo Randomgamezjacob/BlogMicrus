@@ -1,6 +1,82 @@
-<html>
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BlogMicrus — Simple microblogging platform</title>
+        <meta name="description" content="BlogMicrus: create and view microblogs without coding. Share posts and follow creators.">
+        <meta name="keywords" content="microblogging, blog, create blog, posts, share, write">
+        <meta name="author" content="BlogMicrus">
+        <meta name="robots" content="index,follow">
+        <link rel="canonical" href="https://example.com/">
+        <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+
+        <!-- Open Graph -->
+        <meta property="og:title" content="BlogMicrus — Simple microblogging platform">
+        <meta property="og:description" content="Create and view microblogs without coding.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://example.com/">
+        <meta property="og:image" content="https://example.com/blogmicrus-logo.png">
+        <meta property="og:locale" content="en_US">
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@YourTwitterHandle">
+        <meta name="twitter:title" content="BlogMicrus — Simple microblogging platform">
+        <meta name="twitter:description" content="Create and view microblogs without coding.">
+        <meta name="twitter:image" content="https://example.com/blogmicrus-logo.png">
+
+        <!-- GEO meta tags (replace with your primary location) -->
+        <meta name="geo.region" content="US-CA">
+        <meta name="geo.placename" content="San Francisco">
+        <meta name="geo.position" content="37.7749;-122.4194">
+        <meta name="ICBM" content="37.7749, -122.4194">
+
+        <!-- Structured data (WebSite, Organization, Place) -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "WebSite",
+                    "name": "BlogMicrus",
+                    "url": "https://example.com/",
+                    "potentialAction": {
+                        "@type": "SearchAction",
+                        "target": "https://example.com/?s={search_term_string}",
+                        "query-input": "required name=search_term_string"
+                    }
+                },
+                {
+                    "@type": "Organization",
+                    "name": "BlogMicrus",
+                    "url": "https://example.com/",
+                    "logo": "https://example.com/blogmicrus-logo.png",
+                    "sameAs": []
+                },
+                {
+                    "@type": "Place",
+                    "name": "BlogMicrus HQ",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "San Francisco",
+                        "addressRegion": "CA",
+                        "addressCountry": "US"
+                    },
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": 37.7749,
+                        "longitude": -122.4194
+                    }
+                }
+            ]
+        }
+        </script>
+
+        <link rel="stylesheet" href="style.css" id="style">
+    </head>
     <body>
-        <img src="blogmicrus logo.png">
+        <img src="blogmicrus logo.png" alt="BlogMicrus logo" loading="lazy">
         <div id="not-session">
             <h1>Welcome to BlogMicrus</h1>
             <p>BlogMicrus is a simple microblogging platform where YOU can create your own blog without coding. You can also view posts from other users and their own blogs.</p>
@@ -18,7 +94,6 @@
             <a href="mostliked.html">View Most Liked Posts</a>
             <a href="userblog.html">View User Blogs</a>
         </div>
-        <link rel="stylesheet" href="style.css" id="style">
         <script src="./auth.js" type="module"></script>
         <script src="./index.js" type="module"></script>
         <script src="./style.js" type="module"></script>
