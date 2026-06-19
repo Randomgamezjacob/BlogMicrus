@@ -1,0 +1,66 @@
+h1, h2, h3, h4, h5, h6 {
+  color: cyan;
+}
+html {
+  background-color: #100010;
+  font-family: Ubuntu;
+}
+p {
+  color: darkcyan;
+}
+a {
+  color: cyan;
+  background-color: darkmagenta;
+  padding: 8px;
+  border-radius: 6px;
+  transition: 0.3s;
+  box-shadow: 0px 4px 15px 5px rgba(255, 255, 255, 0.1);
+}
+a:hover {
+  color: lightcyan;
+  background-color: magenta;
+  padding: 9px;
+  border-radius: 6px;
+}
+button {
+  font-size: 20px;
+  font-family: Ubuntu;
+  color: cyan;
+  background-color: darkmagenta;
+  padding: 8px;
+  border-radius: 6px;
+  transition: 0.3s;
+  box-shadow: 0px 4px 15px 5px rgba(255, 255, 255, 0.1);
+}
+button:hover {
+  font-size: 25px;
+  color: lightcyan;
+  background-color: magenta;
+  padding: 9px;
+  border-radius: 6px;
+}
+input {
+  border-radius: 6px;
+  transition: 0.3s;
+  box-shadow: 0px 4px 15px 5px rgba(255, 255, 255, 0.1);
+}
+input:hover {
+  border-radius: 15px;
+  transform: translateY(-3px);
+}
+textarea {
+  border-radius: 6px;
+  box-shadow: 0px 4px 15px 5px rgba(255, 255, 255, 0.1);
+}
+select {
+  font-family: Ubuntu;
+  background-color: cyan;
+  border-radius: 10px;
+  transition: 0.3s;
+  font-size: 20px;
+  box-shadow: 0px 4px 15px 5px rgba(255, 255, 255, 0.1);
+}
+select:hover {
+  transform: translateY(-2px);
+  border-radius: 15px;
+}
