@@ -24,6 +24,6 @@ checkAuth().then(session => {
 loginBtn.onclick = async function() {
     const sound = new Audio("./blogmicrus jingle.mp3")
     await sound.play().catch(() => {});
-    wait(sound.duration * 1000)
+    wait(sound.duration * 10000)
     login(email.value, password.value)
 }
