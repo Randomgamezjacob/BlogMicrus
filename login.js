@@ -20,8 +20,8 @@ checkAuth().then(session => {
         window.location.href = "index.html"
     }
 })
-loginBtn.onclick = function() {
-    let sound = new Audio("./blogmicrus jingle.mp3")
-    sound.play()
+loginBtn.onclick = async function() {
+    const sound = new Audio("./blogmicrus jingle.mp3")
+    await sound.play().catch(() => {});
     login(email.value, password.value)
 }
