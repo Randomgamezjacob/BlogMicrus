@@ -12,6 +12,8 @@ async function login(email, password) {
     if (error) {
         errorText.textContent = "Something went wrong, pls try again !! <:3 " + error.message
     } else {
+        let sound = new Audio("./blogmicrus jingle.mp3")
+        sound.play()
         window.location.href = "index.html"
     }
 }
