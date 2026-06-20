@@ -1,4 +1,5 @@
 // @ts-nocheck
+const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 import { supabase, checkAuth } from './auth.js'
 let email = document.getElementById("email")
 let password = document.getElementById("password")
@@ -23,5 +24,6 @@ checkAuth().then(session => {
 loginBtn.onclick = async function() {
     const sound = new Audio("./blogmicrus jingle.mp3")
     await sound.play().catch(() => {});
+    wait(sound.duration * 1000)
     login(email.value, password.value)
 }
