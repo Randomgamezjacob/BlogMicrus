@@ -41,6 +41,7 @@ function renderPosts(posts) {
           ${videoUrl ? `<video width="320" height="240" controls><source src="${videoUrl}" type="video/mp4">Your browser does not support video.</video>` : ''}
           <p></p>
           <button class="like" onclick="likePost(${post.id})">Like! (${post.likes ?? 0})</button>
+          <a href="indiv-post.html?id=${post.id}">View Post</a>
         </article>
       `
     })
