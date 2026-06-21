@@ -5,7 +5,7 @@ const postsContainer = document.getElementById('posts')
 const categoryFilter = document.getElementById('category-filter')
 
 renderCategoryOptions(categoryFilter, true)
-categoryFilter.addEventListener('change', loadNewestPosts)
+categoryFilter.addEventListener('change', loadPopularPosts)
 
 function escapeHtml(value) {
   return String(value)
