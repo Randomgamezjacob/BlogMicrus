@@ -5,7 +5,7 @@ html {
   background-color: #100010;
   font-family: Ubuntu, sans-serif;
 }
-p {
+p, li {
   color: darkcyan;
 }
 a {
