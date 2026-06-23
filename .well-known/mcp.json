@@ -1,0 +1,7 @@
+{
+  "schema_version": "v1.1.0.1-Beta",
+  "name_for_human": "BlogMicrus",
+  "name_for_model": "BlogMicrus",
+  "description_for_human": "BlogMicrus is a blogging platform that allows users to create, share, and discover blog posts on various topics. It provides a user-friendly interface for writing and publishing content.",
+  "description_for_model": "BlogMicrus is a blogging platform that enables users to create, share, and discover blog posts on a wide range of topics. It offers an intuitive interface for writing and publishing content, making it easy for users to express their ideas and connect with a community of readers."
+}
